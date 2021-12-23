@@ -1,0 +1,48 @@
+$color-white: #ffffff;
+$color-cyan: #4cb6cb;
+$color-grayHight: #788188;
+$color-black: #262626;
+$color-blackLow: #232c32;
+$color-green: #1ab667;
+$color-violet: #232c32;
+$color-gray: #f1f0f1;
+$color-red: #ea1c00;
+$color-text: #333;
+$color-nav-color: #232c32;
+
+.footer {
+    background-color: $color-gray;
+    padding: 15px 0;
+    small {
+        font-size: 1.3rem;
+        font-weight: 500;
+        text-transform: lowercase;
+    }
+    h3 {
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        color: $color-text;
+        font-weight: bold;
+        margin: 0;
+        line-height: 1.5;
+    }
+    p {
+        font-size: 1.5rem;
+    }
+    ul {
+        padding: 0;
+        li {
+            font-size: 1.6rem;
+            padding-bottom: 8px;
+            font-weight: 700;
+            color: rgb(57, 97, 207);
+        }
+    }
+    .store-location {
+        font-size: 1.7rem;
+        text-transform: uppercase;
+        color: $color-cyan;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+}

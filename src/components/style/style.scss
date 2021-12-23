@@ -1,0 +1,47 @@
+$color-white: #ffffff;
+$color-cyan: #4cb6cb;
+$color-grayHight: #788188;
+$color-black: #262626;
+$color-blackLow: #232c32;
+$color-green: #1ab667;
+$color-violet: #232c32;
+$color-gray: #f1f0f1;
+$color-red: #ea1c00;
+$color-text: #333;
+$color-nav-color: #232c32;
+
+img {
+    width: 100%;
+}
+
+body {
+    background-color: #fff;
+    overflow-x: hidden;
+}
+
+$height-Header: 60px;
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    box-sizing: border-box;
+}
+
+a,
+button,
+label {
+    display: inline-block;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    text-decoration: none !important;
+    font-size: inherit;
+    color: unset;
+}
+
+* {
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+}

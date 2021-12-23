@@ -1,0 +1,31 @@
+.form-admin {
+    .title {
+        background-color: rgb(28, 98, 209);
+        color: white;
+        padding: 10px 0;
+        h2 {
+            font-size: 2.2rem;
+        }
+        .add {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            font-size: 1.8rem;
+            color: white;
+        }
+        .back {
+            font-size: 1.6rem;
+            color: white;
+        }
+    }
+    .table-main {
+        th {
+            font-size: 1.8rem;
+            text-align: center;
+        }
+        td {
+            font-size: 1.6rem;
+        }
+    }
+}

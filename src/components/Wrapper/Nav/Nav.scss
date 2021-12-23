@@ -1,0 +1,97 @@
+$color-white: #ffffff;
+$color-cyan: #4cb6cb;
+$color-grayHight: #788188;
+$color-black: #262626;
+$color-blackLow: #232c32;
+$color-green: #1ab667;
+$color-violet: #232c32;
+$color-gray: #f1f0f1;
+$color-red: #ea1c00;
+$color-text: #333;
+$color-nav-color: #232c32;
+
+.nav-container {
+    height: 540px;
+    position: relative;
+    background-color: $color-white;
+    overflow-y: auto;
+    .nav {
+        height: 100%;
+        border-radius: 5px 0 0 5px;
+
+        .menu-left {
+            margin-top: 10px;
+            width: 100%;
+            padding: 0;
+            .menu-left-li {
+                font-size: 1.4rem;
+                font-weight: 500;
+
+                .dropdown-menu-nav {
+                    display: none;
+                    a {
+                        color: $color-grayHight;
+                        display: inline-block;
+                        padding: 2px 0;
+                        width: 100%;
+                        text-align: left;
+
+                        &:hover {
+                            color: $color-red;
+                        }
+                    }
+                }
+
+                .menu-left-a {
+                    cursor: pointer;
+                    user-select: none;
+                    position: relative;
+                    display: flex;
+                    height: 35px;
+                    padding: 0 10px;
+                    align-items: center;
+                    z-index: 101;
+                    text-transform: capitalize;
+                    color: $color-grayHight;
+                    a {
+                        color: inherit;
+                    }
+                    .on-drop {
+                        margin-left: auto;
+                        padding: 5px;
+                    }
+                    i {
+                        padding: 0 5px;
+                        font-size: 1.7rem;
+                        margin-right: 7px;
+                        color: $color-black !important;
+                    }
+                    &.show {
+                        ~ .dropdown-menu-nav {
+                            display: block;
+                        }
+                    }
+                    &:hover {
+                        background-color: $color-red;
+                        color: $color-white;
+                    }
+                }
+            }
+        }
+    }
+}
+.nav-container::-webkit-scrollbar {
+    width: 3px;
+}
+.nav-container::-webkit-scrollbar-button {
+    width: 10px;
+    height: 10px;
+    background-color: rgba(50, 50, 50, 0.05);
+}
+.nav-container::-webkit-scrollbar-thumb {
+    background: #b4b4b4;
+    border-radius: 10px;
+}
+.nav-container::-webkit-scrollbar-track {
+    background: #eee;
+}

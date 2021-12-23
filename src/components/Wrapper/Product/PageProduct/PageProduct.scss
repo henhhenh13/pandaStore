@@ -1,0 +1,82 @@
+$color-white: #ffffff;
+$color-cyan: #4cb6cb;
+$color-grayHight: #788188;
+$color-black: #262626;
+$color-blackLow: #232c32;
+$color-green: #1ab667;
+$color-violet: #232c32;
+$color-gray: #f1f0f1;
+$color-red: #ea1c00;
+$color-text: #333;
+$color-nav-color: #232c32;
+$color-yeelow: #f8e36e;
+
+.page-product {
+    .item {
+        .prices {
+            position: relative;
+            .info-buy {
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: 1;
+                background-color: rgba(121, 117, 101, 0.8);
+                height: 45px;
+                align-items: center;
+                justify-content: space-around;
+                transition: 0.3s ease-in-out;
+                a {
+                    font-size: 1.4rem;
+                    color: $color-white;
+                    &.click-buy {
+                        background-color: $color-blackLow;
+                        padding: 6px 10px;
+                        border-radius: 3px;
+                        &:hover {
+                            background-color: rgb(17, 103, 202);
+                        }
+                    }
+                }
+            }
+        }
+        &:hover {
+            .info-buy {
+                transform: translateY(-100%);
+            }
+        }
+    }
+    .page-control {
+        .page-list {
+            margin: 0 5px;
+            button {
+                border: 1px solid rgb(175, 175, 175);
+                margin: 0 5px;
+                font-size: 1.4rem;
+                padding: 5px 10px;
+                font-weight: 500;
+                color: rgb(9, 113, 199);
+                &.active {
+                    background-color: $color-yeelow;
+                }
+            }
+        }
+        .btn {
+            font-size: 1.8rem;
+            height: 25px;
+            width: 35px;
+            line-height: 13px;
+            text-align: center;
+            color: rgb(9, 113, 199);
+            border: 1px solid rgb(175, 175, 175);
+            &.prev {
+                color: grey;
+                background-color: rgba(175, 175, 175, 0.1);
+            }
+        }
+        button {
+            &:hover {
+                background-color: $color-yeelow !important;
+            }
+        }
+    }
+}

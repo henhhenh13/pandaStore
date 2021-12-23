@@ -1,0 +1,62 @@
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+    .wapper {
+        margin-top: 50px;
+    }
+    .banner {
+        display: none;
+    }
+    .header {
+        position: fixed;
+        width: 100%;
+        .headerxxx {
+            width: 100vw;
+        }
+    }
+    .header.off-Banner {
+        transform: unset;
+    }
+    .headerxxx .home .logo {
+        width: 70px;
+    }
+    .headerxxx .header-left .top ul {
+        padding: 0;
+    }
+    .headerxxx .header-left .top {
+        justify-content: space-around;
+        form {
+            width: 70%;
+        }
+        .text {
+            display: none;
+        }
+    }
+    .carousel-product .item .item-show .img,
+    .page-product .item .item-show .img {
+        height: 211px;
+    }
+    .page-product .item .prices .info-buy a {
+        font-size: 1.2rem;
+    }
+
+    .cart {
+        width: 100vw;
+        .cart-container {
+            img {
+                width: 60px !important;
+                height: 60px !important;
+            }
+        }
+    }
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+}
+
+// Large devices (desktops, less than 1200px)
+@media (min-width: 1199.98px) {
+    .col-xl-2-4 {
+        width: 20% !important;
+    }
+}

@@ -1,0 +1,703 @@
+{
+  "product": [
+    {
+      "name": "ROG Strix G15 G513IH HN015T",
+      "manufacturer": "asus",
+      "oldPrice": "24000000",
+      "fix": "6",
+      "type": {
+        "id": 1,
+        "name": "laptopGaming",
+        "description": "Laptop Gaming"
+      },
+      "img": [
+        "https://product.hstatic.net/1000026716/product/rog_strix_g15_g513ih_hn015t_9e61847a6b8245e9ab9fa32cc2ffb6ba.png",
+        "https://product.hstatic.net/1000026716/product/01_strixg_15_grey_0b72c5f88cbc4dc991be35ba30a65f70.png",
+        "https://product.hstatic.net/1000026716/product/01_strixg_15_grey_0b72c5f88cbc4dc991be35ba30a65f70.png",
+        "https://product.hstatic.net/1000026716/product/02_strixg_15_grey_l_b33b3e528c024d20839282ac2258c0b0.png"
+      ],
+      "id": 1
+    },
+    {
+      "name": "VA24EHE 24\" IPS 75Hz viền mỏng",
+      "manufacturer": "asus",
+      "oldPrice": "4000000",
+      "fix": "6",
+      "type": {
+        "id": 2,
+        "name": "screen",
+        "description": "Màn hình"
+      },
+      "img": [
+        "https://product.hstatic.net/1000026716/product/asus_va24ehe_gearvn_f88eedfbc7bd48c582cba4e2977199ea.jpg",
+        "https://product.hstatic.net/1000026716/product/asus_va24ehe_gearvn_f88eedfbc7bd48c582cba4e2977199ea.jpg"
+      ],
+      "id": 2
+    },
+    {
+      "name": "Nitro 5 Eagle AN515 57 5669",
+      "manufacturer": "acer",
+      "oldPrice": "25000000",
+      "fix": "7",
+      "type": {
+        "id": 1,
+        "name": "laptopGaming",
+        "description": "Laptop Gaming"
+      },
+      "img": [
+        "https://product.hstatic.net/1000026716/product/laptop_gaming_acer_nitro_5_eagle_an515_57_5669_a1581d79b72e45239cf8ffaad2c866f4.jpg",
+        "https://product.hstatic.net/1000026716/product/nitro_5_eagle__5__cc86ba73bd584ce084f053816d81be28.png",
+        "https://product.hstatic.net/1000026716/product/nitro_5_eagle__3__d9ce57f8e2154412bcd9cce282ea97dc.png",
+        "https://product.hstatic.net/1000026716/product/nitro_5_eagle__1__b3cdf8d376264f3e9268fdd003dcc286.png"
+      ],
+      "id": 3,
+      "": [
+        "https://product.hstatic.net/1000026716/product/nitro_5_eagle__3__d9ce57f8e2154412bcd9cce282ea97dc.png"
+      ]
+    },
+    {
+      "name": "Subverter RGB",
+      "manufacturer": "fuhlen",
+      "oldPrice": "1090000",
+      "fix": "6",
+      "type": {
+        "id": 4,
+        "name": "keybroadGaming",
+        "description": "Bàn phím Gamming"
+      },
+      "img": [
+        "https://product.hstatic.net/1000026716/product/gearvn.com-products-ban-phim-fuhlen-subverter-rgb-7_a752dca3f0594ae2a1118b5a30da1d19.jpg",
+        "https://product.hstatic.net/1000026716/product/gearvn.com-products-ban-phim-fuhlen-subverter-rgb-1_6b4a52fed16240a79cec2d8ef07d2677.jpg",
+        "https://product.hstatic.net/1000026716/product/gearvn.com-products-ban-phim-fuhlen-subverter-rgb-2_ca53ad43f30c49ebac8f58717482f091.jpg",
+        "https://product.hstatic.net/1000026716/product/gearvn.com-products-ban-phim-fuhlen-subverter-rgb-6_3d5b0b74288f4284bfe091fc34d53e2b.jpg"
+      ],
+      "id": 4
+    },
+    {
+      "name": "Huntsman V2 Analog",
+      "manufacturer": "razer",
+      "oldPrice": "7450000",
+      "fix": "6",
+      "type": {
+        "id": 4,
+        "name": "keybroadGaming",
+        "description": "Bàn phím Gamming"
+      },
+      "img": [
+        "https://product.hstatic.net/1000026716/product/bg_ducky_t2_2021.xlsx_ad56f0ddd75049978e546b6b05129dcf.png",
+        "https://product.hstatic.net/1000026716/product/71lsoipr4il._ac_sl1500__8f2ce6814d404b398a4237861571d919.jpg",
+        "https://product.hstatic.net/1000026716/product/61-piqgequl._ac_sl1500__61a4c01109824a44a6bb2f563cd961a4.jpg"
+      ],
+      "id": 6
+    },
+    {
+      "name": "24MK600M-B 24\" IPS 75Hz FreeSync 3 cạnh không viền",
+      "manufacturer": "lg",
+      "oldPrice": "43900000",
+      "fix": "6",
+      "type": {
+        "id": 2,
+        "name": "screen",
+        "description": "Màn hình"
+      },
+      "img": [
+        "https://product.hstatic.net/1000026716/product/5_cdbba8d2ff404b14b039bc788b7f4eea.jpg",
+        "https://product.hstatic.net/1000026716/product/lg_24mk600m-b_gearvn1.png",
+        "https://product.hstatic.net/1000026716/product/large02_79650d26a4b34eaf8089d176f267a1e6.jpg",
+        "https://product.hstatic.net/1000026716/product/large06_4664a02d3efd4e29a14c62fae9f93100.jpg",
+        "https://product.hstatic.net/1000026716/product/large08_a9e25bc57af44dd39f6286a0b51ec3e9.jpg"
+      ],
+      "id": 7
+    },
+    {
+      "name": "AORUS 15P YD 73S1224GH",
+      "manufacturer": "gigabyte",
+      "oldPrice": "79990000",
+      "fix": "6",
+      "type": {
+        "id": 1,
+        "name": "laptopGaming",
+        "description": "Laptop Gaming"
+      },
+      "img": [
+        "https://product.hstatic.net/1000026716/product/aorus_15p_yd-73s1224gh_11009e4eb0eb48f38b2115e1c46c21db.png",
+        "https://product.hstatic.net/1000026716/product/img1_49e1ed23bb164e52850b5f6ce7847eb6.png",
+        "https://product.hstatic.net/1000026716/product/img2_79cd95b1f884460d86686dfd2e73c7ae.png",
+        "https://product.hstatic.net/1000026716/product/img3_0d806a14bd76454bbc18707e8f4858b5.png",
+        "https://product.hstatic.net/1000026716/product/img4_f22c2bb5231e4bdfa472498a6852f59e.png"
+      ],
+      "id": 8
+    },
+    {
+      "name": "K68 RGB",
+      "manufacturer": "corsair",
+      "oldPrice": "2750000",
+      "fix": "6",
+      "type": {
+        "id": 4,
+        "name": "keybroadGaming",
+        "description": "Bàn phím Gamming"
+      },
+      "img": [
+        "https://product.hstatic.net/1000026716/product/gearvn-corsair-k68-rgb_01.png",
+        "https://product.hstatic.net/1000026716/product/gearvn-corsair-k68-rgb_02.png",
+        "https://product.hstatic.net/1000026716/product/gearvn-corsair-k68-rgb_03.png",
+        "https://product.hstatic.net/1000026716/product/gearvn-corsair-k68-rgb_04.png"
+      ],
+      "id": 9,
+      "https://product.hstatic.net/1000026716/product/gearvn-corsair-k68-rgb_01.png,https://product.hstatic.net/1000026716/product/gearvn-corsair-k68-rgb_02.png,https://product.hstatic.net/1000026716/product/gearvn-corsair-k68-rgb_03.png,https://product.hstatic.net/1000026716/product/gearvn-corsair-k68-rgb_04.png": [
+        "https://product.hstatic.net/1000026716/product/gearvn-corsair-k68-rgb_05.png"
+      ]
+    },
+    {
+      "name": "ROG Chakram",
+      "manufacturer": "asus",
+      "oldPrice": "3790000",
+      "fix": "6",
+      "type": {
+        "id": 3,
+        "name": "mouse",
+        "description": "Chuột"
+      },
+      "img": [
+        "https://product.hstatic.net/1000026716/product/gearvn-chuot-asus-rog-chakram-1_8d0d8728702646efb71a08928604fc62.jpg",
+        "https://product.hstatic.net/1000026716/product/gearvn-chuot-asus-rog-chakram-2_ffb060fe2af84a83a3daffd81f0e39f0.jpg",
+        "https://product.hstatic.net/1000026716/product/gearvn-chuot-asus-rog-chakram-4_43ee78a6d67f4769b549c8321f04a80c.jpg",
+        "https://product.hstatic.net/1000026716/product/gearvn-chuot-asus-rog-chakram-6_4ed035fff49c402791824bb61daee763.jpg"
+      ],
+      "id": 10
+    },
+    {
+      "name": "Naga Pro",
+      "manufacturer": "razer",
+      "oldPrice": "3490000",
+      "fix": "6",
+      "type": {
+        "id": 3,
+        "name": "mouse",
+        "description": "Chuột"
+      },
+      "img": [
+        "https://product.hstatic.net/1000026716/product/gearvn-chuot-bluetooth-razer-naga-pro-666_d4329d38350e4ed5b67f50234128ea8b.jpg",
+        "https://product.hstatic.net/1000026716/product/gearvn-chuot-bluetooth-razer-naga-pro-2_19827a60aa1f4e2394d8cc0521f5b7ea.jpg",
+        "https://product.hstatic.net/1000026716/product/gearvn-chuot-bluetooth-razer-naga-pro-3_4ac9335507d54bc1b7561d8b09082215.jpg",
+        "https://product.hstatic.net/1000026716/product/gearvn-chuot-bluetooth-razer-naga-pro-4_0b3e06cd011846f29f9e8159c1f7696c.jpg"
+      ],
+      "id": 11
+    },
+    {
+      "name": "Z590 GAMING PLUS",
+      "manufacturer": "msi",
+      "oldPrice": "6890000",
+      "fix": "3",
+      "type": {
+        "id": 5,
+        "name": "mainboard",
+        "description": "Bo mạch chủ"
+      },
+      "img": [
+        "https://product.hstatic.net/1000026716/product/1_dd2da1ae1d574e98b496efe41e4c7d5e.jpg",
+        "https://product.hstatic.net/1000026716/product/4_ab3ac78e64a34dd6889d55286bf532ed.jpg",
+        "https://product.hstatic.net/1000026716/product/3_b822b70df4e2499abe4fdc7d28c0ae78.jpg",
+        "https://product.hstatic.net/1000026716/product/5_c316d545f94d49ffb065e89ba8b2e7eb.jpg"
+      ],
+      "id": 12
+    },
+    {
+      "name": "Z590 GAMING FORCE",
+      "manufacturer": "msi",
+      "oldPrice": "7290000",
+      "fix": "6",
+      "type": {
+        "id": 5,
+        "name": "mainboard",
+        "description": "Bo mạch chủ"
+      },
+      "img": [
+        "https://product.hstatic.net/1000026716/product/msi-mpg_z590_gaming_force-box-rgb_logo_0e7069d4b8b849b3b31614e3bb775971.png",
+        "https://product.hstatic.net/1000026716/product/msi-mpg_z590_gaming_force-3d3_rgb_0ddc75c06d374896807be146d5b33d74.png",
+        "https://product.hstatic.net/1000026716/product/msi-mpg_z590_gaming_force-3d2_rgb2_4d9ab388fc2b48df8f494d10b82a4dd5.png"
+      ],
+      "id": 13
+    },
+    {
+      "name": "ROG Strix Scope TKL Gundam Edition",
+      "manufacturer": "asus",
+      "oldPrice": "3990000",
+      "fix": "7",
+      "type": {
+        "id": 4,
+        "name": "keybroadGaming",
+        "description": "Bàn phím Gamming"
+      },
+      "img": [
+        "https://product.hstatic.net/1000026716/product/asus-rog-strix-scope-tkl-gundam_be1edaf2d9474c42840a29e54c77838b.png",
+        "https://product.hstatic.net/1000026716/product/asus-rog-strix-scope-tkl-gundam1_883d099bd75b436781b37929fd6d5d74.png",
+        "https://product.hstatic.net/1000026716/product/s-l1600__2__b0fd732e6f0345058280423b550a817f.jpg",
+        "https://product.hstatic.net/1000026716/product/asus-rog-strix-scope-tkl-gundam2_f8b667dc37384447a988ec74c791f2c1.png"
+      ],
+      "id": 14
+    },
+    {
+      "name": "K65 RGB MINI",
+      "manufacturer": "corsair",
+      "oldPrice": "2590000",
+      "fix": "3",
+      "type": {
+        "id": 4,
+        "name": "keybroadGaming",
+        "description": "Bàn phím Gamming"
+      },
+      "img": [
+        "https://product.hstatic.net/1000026716/product/gearvn-ban-phim-co-corsair-k65-rgb-mini-cherry-mx-speed-switch-5_e9830f9adebf4343ad9084509570c211.jpg",
+        "https://product.hstatic.net/1000026716/product/gearvn-ban-phim-co-corsair-k65-rgb-mini-cherry-mx-speed-switch-2_08ec0ed2e4014462bea827a2ce33d920.jpg",
+        "https://product.hstatic.net/1000026716/product/gearvn-ban-phim-co-corsair-k65-rgb-mini-cherry-mx-speed-switch-3_57007218f7f04066877373063123e6eb.jpg",
+        "https://product.hstatic.net/1000026716/product/gearvn-ban-phim-co-corsair-k65-rgb-mini-cherry-mx-speed-switch-6_efcfd78f4ce14280a7563f6004965443.jpg"
+      ],
+      "id": 15
+    },
+    {
+      "name": "B460 AORUS PRO AC (rev. 1.0)",
+      "manufacturer": "gigabyte",
+      "oldPrice": "7900000",
+      "fix": "2",
+      "type": {
+        "id": 5,
+        "name": "mainboard",
+        "description": "Bo mạch chủ"
+      },
+      "img": [
+        "https://product.hstatic.net/1000026716/product/b460-aorus-pro-ac-rev-1-3_8e5c19ee9617484c9decd0d2ace2c650.png",
+        "https://product.hstatic.net/1000026716/product/b460-aorus-pro-ac-rev-1-4_6a681ceb551d4a1580b67fc46c004f79.png",
+        "https://product.hstatic.net/1000026716/product/b460-aorus-pro-ac-rev-1-2_96738654ecf94daaacbd66df2f327ac1.png"
+      ],
+      "id": 16,
+      "https://product.hstatic.net/1000026716/product/b460-aorus-pro-ac-rev-1-3_8e5c19ee9617484c9decd0d2ace2c650.png,https://product.hstatic.net/1000026716/product/b460-aorus-pro-ac-rev-1-4_6a681ceb551d4a1580b67fc46c004f79.png,https://product.hstatic.net/1000026716/product/b460-aorus-pro-ac-rev-1-2_96738654ecf94daaacbd66df2f327ac1.png": [
+        "https://product.hstatic.net/1000026716/product/b460-aorus-pro-ac-rev-1-5_e73c6fe39eec4b61a42b6c34f4ca7095.png"
+      ]
+    },
+    {
+      "name": "Sennheiser GSP 602",
+      "manufacturer": "apos",
+      "oldPrice": "7130000",
+      "fix": "7",
+      "type": {
+        "id": 6,
+        "name": "headphone",
+        "description": "Tai nghe gaming"
+      },
+      "img": [
+        "https://product.hstatic.net/1000026716/product/unnamed_3bd33c509e264764a496c3c92bd1dd9d.jpeg",
+        "https://product.hstatic.net/1000026716/product/unnamed_1_9748dd27d2a5487eb67748cba5514768.jpeg",
+        "https://product.hstatic.net/1000026716/product/unnamed3_858af896a7d94293b36efaa3f01a1294.jpeg"
+      ],
+      "id": 17
+    },
+    {
+      "name": "K70 RGB MK.2",
+      "manufacturer": "corsair",
+      "oldPrice": "3490000",
+      "fix": "5",
+      "type": {
+        "id": 4,
+        "name": "keybroadGaming",
+        "description": "Bàn phím Gamming"
+      },
+      "img": [
+        "https://product.hstatic.net/1000026716/product/gearvn.com-products-corsair-k70-rgb-mk-2-2_02cdec35c4ff4f94b15ac9ab390b61c8.jpg",
+        "https://product.hstatic.net/1000026716/product/gearvn.com-products-corsair-k70-rgb-mk-2-3_510d6c8e163f42c5b2a82b0a33f4a923.jpg"
+      ],
+      "id": 18,
+      "https://product.hstatic.net/1000026716/product/gearvn.com-products-corsair-k70-rgb-mk-2-2_02cdec35c4ff4f94b15ac9ab390b61c8.jpg,https://product.hstatic.net/1000026716/product/gearvn.com-products-corsair-k70-rgb-mk-2-3_510d6c8e163f42c5b2a82b0a33f4a923.jpg": [
+        "https://product.hstatic.net/1000026716/product/gearvn.com-products-corsair-k70-rgb-mk-2-5_5e75feb9dc3d421792320fc151f8e2e7.jpg"
+      ]
+    },
+    {
+      "name": "ROG Strix Scope NX TKL DELUXE - Red Switch",
+      "manufacturer": "asus",
+      "oldPrice": "3290000",
+      "fix": "7",
+      "type": {
+        "id": 4,
+        "name": "keybroadGaming",
+        "description": "Bàn phím Gamming"
+      },
+      "img": [
+        "https://product.hstatic.net/1000026716/product/gearvn-ban-phim-asus-rog-strix-scope-nx-tkl-deluxe_-_red_switch-1_ed71acf87a6b459389012cd3e9be65af.jpg",
+        "https://product.hstatic.net/1000026716/product/gearvn-ban-phim-asus-rog-strix-scope-nx-tkl-deluxe_-_red_switch-2_21a2a40434904af6a2557c231cf0ea34.jpg",
+        "https://product.hstatic.net/1000026716/product/gearvn-ban-phim-asus-rog-strix-scope-nx-tkl-deluxe_-_red_switch-3_7234fdc478f84cdc966a0683b3f05a74.jpg",
+        "https://product.hstatic.net/1000026716/product/gearvn-ban-phim-asus-rog-strix-scope-nx-tkl-deluxe_-_red_switch-4_832943d3c01a4f869b5bdf28d2543f28.jpg"
+      ],
+      "id": 19
+    },
+    {
+      "name": "K70 TKL RGB Champion Series",
+      "manufacturer": "corsair",
+      "oldPrice": "3450000",
+      "fix": "7",
+      "type": {
+        "id": 4,
+        "name": "keybroadGaming",
+        "description": "Bàn phím Gamming"
+      },
+      "img": [
+        "https://product.hstatic.net/1000026716/product/-base-k70-rgb-tkl-gallery-ch-9119014-01_0653fbe8e51e429bbbbf38b7ce9c2323.png",
+        "https://product.hstatic.net/1000026716/product/-base-k70-rgb-tkl-gallery-ch-9119014-51_17221ae6737e444db84080ae2254bd57.png",
+        "https://product.hstatic.net/1000026716/product/-base-k70-rgb-tkl-gallery-ch-9119014-52_6d3cc90849174b33a3ada326b5752eb4.png",
+        "https://product.hstatic.net/1000026716/product/-base-k70-rgb-tkl-gallery-ch-9119014-53_a15b824b15624fc285944da871c1026c.png"
+      ],
+      "id": 20
+    },
+    {
+      "name": "Huntsman Mini Mercury",
+      "manufacturer": "razer",
+      "oldPrice": "3090000",
+      "fix": "5",
+      "type": {
+        "id": 4,
+        "name": "keybroadGaming",
+        "description": "Bàn phím Gamming"
+      },
+      "img": [
+        "https://product.hstatic.net/1000026716/product/gearvn-ban-phim-co-razer-huntsman-mini-mercury-766_760a5c27882e43a0a4a7382d724077c8.jpg",
+        "https://product.hstatic.net/1000026716/product/81nx8uy6rtl._ac_sl1500__936de89e2938401382bb9feb35c69a8a.jpg",
+        "https://product.hstatic.net/1000026716/product/71ejbhnirbl._ac_sl1500__9c91caee36384cb085cd90d74e315eea.jpg"
+      ],
+      "id": 21
+    },
+    {
+      "name": "GK1 Black Red",
+      "manufacturer": "Mojike",
+      "oldPrice": "7900000",
+      "fix": "7",
+      "type": {
+        "id": 4,
+        "name": "keybroadGaming",
+        "description": "Bàn phím Gamming"
+      },
+      "img": [
+        "https://product.hstatic.net/1000026716/product/ban-phim-co-mojike-gk1-black-red-01_7a1bb0bc88ba4109b40596289667a883.jpg",
+        "https://product.hstatic.net/1000026716/product/gearvn-ban-phim-co-mojike-gk1-black-red-2_3d71636460f74d5ea91fc24152660cb4.jpg",
+        "https://product.hstatic.net/1000026716/product/gearvn-ban-phim-co-mojike-gk1-black-red-4_f1c4c3c45c3a404a8174d0442b663544.jpg"
+      ],
+      "id": 22
+    },
+    {
+      "name": "X8 Bumblebee Silent Red Switch",
+      "manufacturer": "mistel",
+      "oldPrice": "1090000",
+      "fix": "7",
+      "type": {
+        "id": 4,
+        "name": "keybroadGaming",
+        "description": "Bàn phím Gamming"
+      },
+      "img": [
+        "https://product.hstatic.net/1000026716/product/gearvn-ban-phim-co-mistel-x8-bumblebee-silent-red-switch-1_7fac64ea5c6e4c308f6bffd26b883f74.jpg",
+        "https://product.hstatic.net/1000026716/product/gearvn-ban-phim-co-mistel-x8-bumblebee-silent-red-switch-2_19eaa0f961ec4788ac48cf8a1f29023d.jpg",
+        "https://product.hstatic.net/1000026716/product/gearvn-ban-phim-co-mistel-x8-bumblebee-silent-red-switch-3_01b1fe0cad3b4b16a475dc90f03b1ded.jpg"
+      ],
+      "id": 23
+    },
+    {
+      "name": "G Pro League Of Legends",
+      "manufacturer": "logitech",
+      "oldPrice": "3900000",
+      "fix": "5",
+      "type": {
+        "id": 4,
+        "name": "keybroadGaming",
+        "description": "Bàn phím Gamming"
+      },
+      "img": [
+        "https://product.hstatic.net/1000026716/product/phim1_609109fb36a7494a8ee828509bc8968c.png",
+        "https://product.hstatic.net/1000026716/product/phim2_5d3b475ff4984b2db23439fb4a5604f5.png",
+        "https://product.hstatic.net/1000026716/product/phim5_72b73b3008b74156b5e211c0ad1c18d5.png"
+      ],
+      "id": 24
+    },
+    {
+      "name": "Modern 14 B5M 204VN",
+      "manufacturer": "msi",
+      "oldPrice": "16000000",
+      "fix": "7",
+      "type": {
+        "id": 0,
+        "name": "laptopOffice",
+        "description": "Laptop Văn Phòng"
+      },
+      "img": [
+        "https://product.hstatic.net/1000026716/product/msi_modern_14_b5m_204vn_b0f6184e8a144a93879c51e627a82e30.jpg",
+        "https://product.hstatic.net/1000026716/product/modern_14_b5m_064vn_r5_5500u_2_5b90f29a7aa5498f8ffd1044a83ac6ab_master_d06940ef0bc34a418059821b4ad9b850.png",
+        "https://product.hstatic.net/1000026716/product/modern_14_b5m_064vn_r5_5500u_2_5b90f29a7aa5498f8ffd1044a83ac6ab_master_d06940ef0bc34a418059821b4ad9b850.png"
+      ],
+      "id": 25
+    },
+    {
+      "name": "G733 LIGHTSPEED Wireless White",
+      "manufacturer": "logitech",
+      "oldPrice": "2900000",
+      "fix": "7",
+      "type": {
+        "id": 6,
+        "name": "headphone",
+        "description": "Tai nghe gaming"
+      },
+      "img": [
+        "https://product.hstatic.net/1000026716/product/gearvn-tai-nghe-logitech-g733-lightspeed-wireless-white-66666_142abc4187744aa7b7fe009d7486696c.png",
+        "https://product.hstatic.net/1000026716/product/gearvn-tai-nghe-logitech-g733-lightspeed-wireless-white-66666_142abc4187744aa7b7fe009d7486696c.png",
+        "https://product.hstatic.net/1000026716/product/gearvn-tai-nghe-logitech-g733-lightspeed-wireless-white-22_84e4867eb34b4dda8aee0283eeea541a.jpg"
+      ],
+      "id": 26
+    },
+    {
+      "name": "EH925S 7.1 RGB",
+      "manufacturer": "dareu",
+      "oldPrice": "1400000",
+      "fix": "7",
+      "type": {
+        "id": 6,
+        "name": "headphone",
+        "description": "Tai nghe gaming"
+      },
+      "img": [
+        "https://product.hstatic.net/1000026716/product/dareu-eh925s-gearvn.jpg",
+        "https://product.hstatic.net/1000026716/product/50280447_1234003850086530_3637994568529477632_o.jpg"
+      ],
+      "": [
+        "EH925S 7.1 RGB"
+      ],
+      "id": 27
+    },
+    {
+      "name": "Pulsefire FPS Pro",
+      "manufacturer": "hyprex",
+      "oldPrice": "890000",
+      "fix": "7",
+      "type": {
+        "id": 3,
+        "name": "mouse",
+        "description": "Chuột"
+      },
+      "img": [
+        "https://product.hstatic.net/1000026716/product/gearvn_hyperx_pulsefirefps_pro01.png",
+        "https://product.hstatic.net/1000026716/product/gearvn_hyperx_pulsefirefps_pro1.jpg",
+        "https://product.hstatic.net/1000026716/product/gearvn_hyperx_pulsefirefps_pro7.jpg"
+      ],
+      "id": 28
+    },
+    {
+      "name": "IdeaPad 5 Pro 14ACN6 82L7007YVN",
+      "manufacturer": "lenovo",
+      "oldPrice": "24900000",
+      "fix": "6",
+      "type": {
+        "id": 0,
+        "name": "laptopOffice",
+        "description": "Laptop Văn Phòng"
+      },
+      "img": [
+        "https://product.hstatic.net/1000026716/product/laptop_lenovo_ideapad_5_pro_14acn6_82l7007yvn_9cd9946c59d64a2dba31b6a7efb7f4a4.jpg",
+        "https://product.hstatic.net/1000026716/product/20422_laptop_lenovo_ideapad_5_pro_14acn6_82l7001svn_2_715093948c5c489a8e38811a68e66c13.jpg",
+        "https://product.hstatic.net/1000026716/product/20422_laptop_lenovo_ideapad_5_pro_14acn6_82l7001svn_3_b50068a7bbbd402489c51cc1ab23b412.jpg",
+        "https://product.hstatic.net/1000026716/product/20422_laptop_lenovo_ideapad_5_pro_14acn6_82l7001svn_5_97611272339240999e1e3a87b7144c45.jpg"
+      ],
+      "id": 29
+    },
+    {
+      "name": "Creator Z16 A11UET 218VN",
+      "manufacturer": "msi",
+      "oldPrice": "68000000",
+      "fix": "5",
+      "type": {
+        "id": 1,
+        "name": "laptopGaming",
+        "description": "Laptop Gaming"
+      },
+      "img": [
+        "https://product.hstatic.net/1000026716/product/laptop_msi_creator_z16_a11uet_218vn_0ecdea36646f43d3bbffab6046602a1e.jpg",
+        "https://product.hstatic.net/1000026716/product/1024__1__bebff7b7618a4878a9008bd6d267becf.png",
+        "https://product.hstatic.net/1000026716/product/1024__2__e9c4305fa00b4c6b92692fa30258f971.png",
+        "https://product.hstatic.net/1000026716/product/1024__2__e9c4305fa00b4c6b92692fa30258f971.png"
+      ],
+      "id": 30
+    },
+    {
+      "name": "GVN Ratchet M",
+      "manufacturer": "",
+      "oldPrice": "18490000",
+      "fix": "6",
+      "type": {
+        "id": 7,
+        "name": "pcGearvn",
+        "description": "Pc Bộ Gearvn"
+      },
+      "img": [
+        "https://product.hstatic.net/1000026716/product/ratchet_738d493f6c3c46858aa2c5423809ae57.jpg"
+      ],
+      "id": 31
+    },
+    {
+      "name": "GVN Titan M",
+      "manufacturer": "",
+      "oldPrice": "8550000",
+      "fix": "7",
+      "type": {
+        "id": 7,
+        "name": "pcGearvn",
+        "description": "Pc Bộ Gearvn"
+      },
+      "img": [
+        "https://product.hstatic.net/1000026716/product/titan_c7f046d24e544522965b7d4775a2656d.jpg"
+      ],
+      "id": 32
+    },
+    {
+      "name": "GVN Mystic M",
+      "manufacturer": "",
+      "oldPrice": "15000000",
+      "fix": "9",
+      "type": {
+        "id": 7,
+        "name": "pcGearvn",
+        "description": "Pc Bộ Gearvn"
+      },
+      "img": [
+        "https://product.hstatic.net/1000026716/product/mystic_ef8b8848352f4472810f7a9f0f4f7623.jpg"
+      ],
+      "https://product.hstatic.net/1000026716/product/mystic_ef8b8848352f4472810f7a9f0f4f7623.jpg": [
+        ""
+      ],
+      "id": 33
+    },
+    {
+      "name": "GVN Phantom S",
+      "manufacturer": "",
+      "oldPrice": "308000000",
+      "fix": "7",
+      "type": {
+        "id": 7,
+        "name": "pcGearvn",
+        "description": "Pc Bộ Gearvn"
+      },
+      "img": [
+        "https://product.hstatic.net/1000026716/product/phantom_b49bdc71d44f4db59b419e2fd2af463f.jpg"
+      ],
+      "id": 34
+    },
+    {
+      "name": "GVN Ghost S",
+      "manufacturer": "",
+      "oldPrice": "38000000",
+      "fix": "7",
+      "type": {
+        "id": 7,
+        "name": "pcGearvn",
+        "description": "Pc Bộ Gearvn"
+      },
+      "img": [
+        "https://product.hstatic.net/1000026716/product/ghost_3dedb620811c4c25935ffb5df0dbec71.jpg"
+      ],
+      "id": 35
+    },
+    {
+      "name": "GVN Garen S",
+      "manufacturer": "",
+      "oldPrice": "35000000",
+      "fix": "6",
+      "type": {
+        "id": 7,
+        "name": "pcGearvn",
+        "description": "Pc Bộ Gearvn"
+      },
+      "img": [
+        "https://product.hstatic.net/1000026716/product/garen_df058ace6fe7447b91b0ba55a7ef0c3c.jpg"
+      ],
+      "id": 36
+    },
+    {
+      "name": "GVN Athen M",
+      "manufacturer": "",
+      "oldPrice": "45000000",
+      "fix": "9",
+      "type": {
+        "id": 7,
+        "name": "pcGearvn",
+        "description": "Pc Bộ Gearvn"
+      },
+      "img": [
+        "https://product.hstatic.net/1000026716/product/athen_7e46a2f0442c4abb80e75fc69612e680.jpg"
+      ],
+      "id": 37
+    }
+  ],
+  "homePage": [
+    {
+      "id": 1,
+      "name": "laptopGaming",
+      "description": "Laptop Gaming"
+    },
+    {
+      "id": 2,
+      "name": "screen",
+      "description": "Màn hình"
+    },
+    {
+      "id": 4,
+      "name": "keybroadGaming",
+      "description": "Bàn phím Gamming"
+    },
+    {
+      "id": 5,
+      "name": "mainboard",
+      "description": "Bo mạch chủ"
+    },
+    {
+      "id": 3,
+      "name": "mouse",
+      "description": "Chuột"
+    }
+  ],
+  "category": [
+    {
+      "id": 0,
+      "name": "laptopOffice",
+      "description": "Laptop Văn Phòng"
+    },
+    {
+      "id": 1,
+      "name": "laptopGaming",
+      "description": "Laptop Gaming"
+    },
+    {
+      "id": 2,
+      "name": "screen",
+      "description": "Màn hình"
+    },
+    {
+      "id": 3,
+      "name": "mouse",
+      "description": "Chuột"
+    },
+    {
+      "id": 4,
+      "name": "keybroadGaming",
+      "description": "Bàn phím Gamming"
+    },
+    {
+      "id": 5,
+      "name": "mainboard",
+      "description": "Bo mạch chủ"
+    },
+    {
+      "id": 6,
+      "name": "headphone",
+      "description": "Tai nghe gaming"
+    },
+    {
+      "id": 7,
+      "name": "pcGearvn",
+      "description": "Pc Bộ Gearvn"
+    }
+  ]
+}

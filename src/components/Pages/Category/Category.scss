@@ -1,0 +1,28 @@
+$color-white: #ffffff;
+$color-cyan: #4cb6cb;
+$color-grayHight: #788188;
+$color-black: #262626;
+$color-blackLow: #232c32;
+$color-green: #1ab667;
+$color-violet: #232c32;
+$color-gray: #f1f0f1;
+$color-red: #ea1c00;
+$color-text: #333;
+$color-nav-color: #232c32;
+
+.title-top {
+    h2 {
+        font-size: 4rem;
+        font-weight: 500;
+    }
+    p {
+        font-size: 1.6rem;
+        padding-left: 25px;
+        i {
+            font-style: normal;
+            color: black;
+            font-size: 1.7rem;
+            font-weight: 500;
+        }
+    }
+}

@@ -1,0 +1,32 @@
+$color-white: #ffffff;
+$color-cyan: #4cb6cb;
+$color-grayHight: #788188;
+$color-black: #262626;
+$color-blackLow: #232c32;
+$color-green: #1ab667;
+$color-violet: #232c32;
+$color-gray: #f1f0f1;
+$color-red: #ea1c00;
+$color-text: #333;
+$color-nav-color: #232c32;
+
+.wapper {
+    margin-top: -10px;
+    .banner-header {
+        background-color: $color-gray;
+
+        .sliderr {
+            .bottom {
+                padding: 0 2px;
+                a {
+                    display: block;
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .sale-banner {
+        margin-top: 10px;
+    }
+}

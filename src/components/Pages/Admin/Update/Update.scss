@@ -1,0 +1,27 @@
+.img-box {
+    min-height: 100px;
+    .img-control {
+        position: relative;
+        border: 1px solid #333;
+        margin-right: 15px;
+        .img {
+            width: 100px;
+            height: 100px;
+            margin-right: 20px;
+        }
+        .delete-img-btn {
+            position: absolute;
+            z-index: 100;
+            top: 0;
+            right: 0;
+            transform: translateY(-10%);
+        }
+    }
+}
+label,
+input,
+button,
+option,
+select {
+    font-size: 1.8rem;
+}

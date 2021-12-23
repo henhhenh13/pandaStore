@@ -1,23 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import { Routes, Route } from 'react-router-dom';
+
+import Wrapper from './components/Wrapper';
+import './components/style/grid.css'
+import './components/style/style.scss'
+import './components/style/responsive.scss'
+import ItemPage from './components/Pages/ItemPage';
+import SearchPage from './components/Pages/SearchPage';
+import Admin from './components/Pages/Admin';
+import Create from './components/Pages/Admin/Create';
+import Update from './components/Pages/Admin/Update';
+import Category from './components/Pages/Category';
+import Cart from './components/Pages/Cart';
+import Checkout from './components/Pages/Checkout';
+
 
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <Routes>
+        <Route path="/" element={<Wrapper />} />
+        <Route path="/search" element={<SearchPage />} />
+        <Route path="/search/:search" element={<SearchPage />} />
+        <Route path="/category/:search" element={<Category />} />
+        <Route path="/category/:search/:manufacturer" element={<Category />} />
+        <Route path="/product/:name/:id" element={<ItemPage />} />
+        <Route path="/cart" element={<Cart />} />
+        <Route path="/checkout" element={<Checkout />} />
+        <Route path="/admin" element={<Admin />} />
+        <Route path="/admin/create" element={<Create />} />
+        <Route path="/admin/update/:id" element={<Update />} />
+      </Routes>
+
+
     </div>
   );
 }
