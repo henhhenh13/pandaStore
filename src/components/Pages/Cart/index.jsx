@@ -13,7 +13,7 @@ function Cart(props) {
     let navigate = useNavigate()
     const [userCart, setUserCart] = useState(() => {
         const loadUserCart = localStorage.getItem('UserPandaStore');
-        return JSON.parse(loadUserCart)
+        return JSON.parse(loadUserCart) || []
     });
 
     const total = useMemo(() => {

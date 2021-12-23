@@ -21,7 +21,10 @@ function Headerxxx({ handleToggleNav }) {
 
     const userCart = function () {
         const loadUserCart = localStorage.getItem('UserPandaStore');
-        return JSON.parse(loadUserCart).product.length || 0
+        if (loadUserCart) {
+            return JSON.parse(loadUserCart).product.length
+        }
+
     };
 
     const navigate = useNavigate();

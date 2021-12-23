@@ -15,6 +15,10 @@ import Checkout from './components/Pages/Checkout';
 
 
 function App() {
+  // const loadUserCart = localStorage.getItem('UserPandaStore');
+  // if (!loadUserCart) {
+  //   localStorage.setItem('UserPandaStore', []);
+  // }
 
   return (
     <div className="App">
