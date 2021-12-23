@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react';
+import React, { useMemo, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import Header from '../../Header'
 import Footer from '../../Footer'
@@ -17,13 +17,15 @@ function Cart(props) {
     });
 
     const total = useMemo(() => {
-        const products = userCart.product;
-        const result = products.reduce((result, item) => {
-            return result + Number(item.totalItem)
-        }, 0)
-        const newUserCart = { ...userCart, totalPrice: result };
-        localStorage.setItem('UserPandaStore', JSON.stringify(newUserCart));
-        return result
+        if (userCart.product) {
+            const products = userCart.product;
+            const result = products.reduce((result, item) => {
+                return result + Number(item.totalItem)
+            }, 0)
+            const newUserCart = { ...userCart, totalPrice: result };
+            localStorage.setItem('UserPandaStore', JSON.stringify(newUserCart));
+            return result
+        }
 
     }, [userCart]);
 
@@ -57,12 +59,17 @@ function Cart(props) {
         e.preventDefault();
         navigate('/checkout')
     }
+    useEffect(() => {
+        window.scrollTo(0, 0)
+
+    }, [])
+
 
     return (
         <div className='cart'>
             <Header />
             {
-                userCart.product.length > 0
+                userCart.product && userCart.product.length > 0
                     ?
                     <div>
                         <h1 className='text-center mt-5 mb-4'>Giỏ Hàng</h1>

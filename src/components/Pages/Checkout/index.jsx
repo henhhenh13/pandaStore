@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { useState } from 'react';
 import { Form, Button, Row, Col } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
@@ -17,11 +18,16 @@ function Checkout(props) {
         setUserCart(newUserCart)
         navigate('/')
     }
+    useEffect(() => {
+        window.scrollTo(0, 0)
+
+    }, [])
 
     return (
-        <div className='check-out'>
-            <div className="row">
-                <div className="col-lg-6 col-md-12 left mt-5 pl-lg-5">
+        <div className='check-out container-lg-fuild container-md'>
+            <div className="row ">
+                <div className="col-lg-1 col-md-0"></div>
+                <div className="col-lg-4 col-md-12 left mt-5 pl-lg-5">
                     <h1>Gearvn.com</h1>
                     <h2 className=''>Thông tin giao hàng</h2>
                     <div className="nav mb-3"></div>
@@ -58,7 +64,8 @@ function Checkout(props) {
                     </Form>
 
                 </div>
-                <div className="col-lg-6 col-md-12 right">
+                <div className="col-lg-1 col-md-0"></div>
+                <div className="col-lg-6 col-md-12 pl-lg-5 right">
                     <div className="row">
                         <div className="col-lg-9 col=md-12">
                             <div className="product">

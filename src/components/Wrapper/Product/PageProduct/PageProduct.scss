@@ -28,12 +28,17 @@ $color-yeelow: #f8e36e;
                 a {
                     font-size: 1.4rem;
                     color: $color-white;
+                    text-overflow: ellipsis;
+                    line-height: 1.2;
                     &.click-buy {
                         background-color: $color-blackLow;
                         padding: 6px 10px;
                         border-radius: 3px;
                         &:hover {
                             background-color: rgb(17, 103, 202);
+                        }
+                        @media (max-width: 767.98px) {
+                            padding: 6px 6px;
                         }
                     }
                 }

@@ -15,12 +15,14 @@ function ItemPage(props) {
     let { id } = useParams();
     const [data, setData] = useState();
 
+    window.scrollTo(0, 0)
     useEffect(() => {
         fetch(`https://json-server-panda.herokuapp.com/product/${id}`)
             .then(res => res.json())
             .then(data => {
                 setData(data)
-            })
+            });
+
     }, [id]);
 
     const settings = {
@@ -57,8 +59,8 @@ function ItemPage(props) {
         }
         localStorage.setItem('UserPandaStore', JSON.stringify(userCartData));
         navigate(`/cart`)
-
     }
+
 
     return (
         <div>

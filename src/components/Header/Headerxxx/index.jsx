@@ -24,7 +24,6 @@ function Headerxxx({ handleToggleNav }) {
         if (loadUserCart) {
             return JSON.parse(loadUserCart).product.length
         }
-
     };
 
     const navigate = useNavigate();
@@ -72,7 +71,7 @@ function Headerxxx({ handleToggleNav }) {
                                     <Link to="/cart">
                                         <span className='icon'>
                                             <FaShoppingCart />
-                                            <small>{userCart()}</small>
+                                            <small>{userCart() ? userCart() : 0}</small>
                                         </span>
                                         <span className='text'>Giỏ Hàng</span>
                                     </Link>

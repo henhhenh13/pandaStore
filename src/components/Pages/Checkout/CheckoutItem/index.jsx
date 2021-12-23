@@ -3,9 +3,11 @@ function CheckoutItem({ item }) {
     return (
         <div className="items mb-3">
             <div className="row justify-content-between">
-                <div className="img col-3">
-                    <img src={item.img[0]} alt="img" />
-                    <div className="sll">{item.sll}</div>
+                <div className=" col-3">
+                    <div className="img">
+                        <img src={item.img[0]} alt="img" />
+                        <div className="sll">{item.sll}</div>
+                    </div>
                 </div>
                 <p className="text col-6">
                     Cổng chuyển Hyperdrive Dual 4k HDMI USB-C hub for Macbook M1 (HDM1)

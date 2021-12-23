@@ -7,7 +7,7 @@ function Item({ item }) {
     const oldPrice = Number(item.oldPrice);
 
     return (
-        <div className="col-xl-2-4 col-md-6 col-6 px-md-3 mb-5 px-0" >
+        <div className="col-xl-2-4 col-md-6 col-6 mb-5" >
             <div className="item" data-value="1">
                 <div className="item-show">
                     <Link to={`/product/${type.name}-${to_slug(name)}/${id}`} className="img">

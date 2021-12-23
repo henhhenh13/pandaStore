@@ -1,4 +1,7 @@
 .cart {
+    @media (max-width: 767.98px) {
+        padding-top: 50px;
+    }
     .cart-container {
         th,
         td {

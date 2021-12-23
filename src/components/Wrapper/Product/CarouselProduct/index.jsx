@@ -1,6 +1,5 @@
 import './CarouselProduct.scss'
 import 'react-alice-carousel/lib/alice-carousel.css';
-import { FaAngleRight } from 'react-icons/fa'
 import Slider from "react-slick"
 
 import "slick-carousel/slick/slick.css";
@@ -38,7 +37,6 @@ function CarouselProduct({ data, type }) {
         <div className="carousel-product container px-lg-4 px-0">
             <div className="ribbons container d-flex justify-content-between align-items-center">
                 <h3 className="title">PC GEARVN - MIỄN PHÍ GIAO HÀNG TOÀN QUỐC</h3>
-                <a href="/" className="view-all">Xem tất cả<i><FaAngleRight /></i></a>
             </div>
             <div className="carousel-slide">
                 <Slider {...settings}>
