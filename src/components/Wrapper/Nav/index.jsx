@@ -21,7 +21,7 @@ function Nav(props) {
             dropDownBtn.parentElement.classList.toggle('show')
         }
         if (link) {
-            navigate(`category/${link.dataset.link}`);
+            navigate(`/category/${link.dataset.link}`);
         }
     }
 
@@ -43,9 +43,9 @@ function Nav(props) {
                         </div>
                         <div className="dropdown-menu-nav">
                             <ul>
-                                <li><Link to="/category/laptopOffice/acer">Acer</Link></li>
-                                <li><Link to="/category/laptopOffice/asus">Asus</Link></li>
-                                <li><Link to="/category/laptopOffice/msi">Msi</Link></li>
+                                <li><Link to="category/laptopOffice/acer">Acer</Link></li>
+                                <li><Link to="category/laptopOffice/asus">Asus</Link></li>
+                                <li><Link to="category/laptopOffice/msi">Msi</Link></li>
                             </ul>
                         </div>
                     </li>
@@ -57,9 +57,9 @@ function Nav(props) {
                         </div>
                         <div className="dropdown-menu-nav">
                             <ul>
-                                <li><Link to="/category/laptopGaming/acer">Acer</Link></li>
-                                <li><Link to="/category/laptopGaming/asus">Asus</Link></li>
-                                <li><Link to="/category/laptopGaming/msi">Msi</Link></li>
+                                <li><Link to="category/laptopGaming/acer">Acer</Link></li>
+                                <li><Link to="category/laptopGaming/asus">Asus</Link></li>
+                                <li><Link to="category/laptopGaming/msi">Msi</Link></li>
                             </ul>
                         </div>
                     </li>
@@ -71,9 +71,9 @@ function Nav(props) {
                         </div>
                         <div className="dropdown-menu-nav">
                             <ul>
-                                <li><Link to="/category/mainboard">Bo mạch chủ</Link></li>
-                                <li><Link to="/category/mainboard">Bo mạch chủ</Link></li>
-                                <li><Link to="/category/mainboard">Bo mạch chủ</Link></li>
+                                <li><Link to="category/mainboard">Bo mạch chủ</Link></li>
+                                <li><Link to="category/mainboard">Bo mạch chủ</Link></li>
+                                <li><Link to="category/mainboard">Bo mạch chủ</Link></li>
                             </ul>
                         </div>
                     </li>
@@ -85,8 +85,8 @@ function Nav(props) {
                         </div>
                         <div className="dropdown-menu-nav">
                             <ul>
-                                <li><Link to="/category/screen/lg">Asus</Link></li>
-                                <li><Link to="/category/screen/asus">LG</Link></li>
+                                <li><Link to="category/screen/lg">Asus</Link></li>
+                                <li><Link to="category/screen/asus">LG</Link></li>
                             </ul>
                         </div>
                     </li>
@@ -98,9 +98,9 @@ function Nav(props) {
                         </div>
                         <div className="dropdown-menu-nav">
                             <ul>
-                                <li><Link to="/category/keybroadGaming/razer">Razer</Link></li>
-                                <li><Link to="/category/keybroadGaming/fuhlen">Fuhlen</Link></li>
-                                <li><Link to="/category/keybroadGaming/corsair">Corsair</Link></li>
+                                <li><Link to="category/keybroadGaming/razer">Razer</Link></li>
+                                <li><Link to="category/keybroadGaming/fuhlen">Fuhlen</Link></li>
+                                <li><Link to="category/keybroadGaming/corsair">Corsair</Link></li>
                             </ul>
                         </div>
                     </li>
@@ -112,8 +112,8 @@ function Nav(props) {
                         </div>
                         <div className="dropdown-menu-nav">
                             <ul>
-                                <li><Link to="/category/mouse/razer">Razer</Link></li>
-                                <li><Link to="/category/mouse/asus">Asus</Link></li>
+                                <li><Link to="category/mouse/razer">Razer</Link></li>
+                                <li><Link to="category/mouse/asus">Asus</Link></li>
                             </ul>
                         </div>
                     </li>
@@ -125,7 +125,7 @@ function Nav(props) {
                         </div>
                         <div className="dropdown-menu-nav">
                             <ul>
-                                <li><Link to="/category/headphone/apos">Apos</Link></li>
+                                <li><Link to="category/headphone/apos">Apos</Link></li>
                             </ul>
                         </div>
                     </li>

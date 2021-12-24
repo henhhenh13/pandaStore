@@ -12,13 +12,10 @@ import Update from './components/Pages/Admin/Update';
 import Category from './components/Pages/Category';
 import Cart from './components/Pages/Cart';
 import Checkout from './components/Pages/Checkout';
+import Nothing from './components/Pages/Nothing';
 
 
 function App() {
-  // const loadUserCart = localStorage.getItem('UserPandaStore');
-  // if (!loadUserCart) {
-  //   localStorage.setItem('UserPandaStore', []);
-  // }
 
   return (
     <div className="App">
@@ -35,6 +32,8 @@ function App() {
         <Route path="/admin" element={<Admin />} />
         <Route path="/admin/create" element={<Create />} />
         <Route path="/admin/update/:id" element={<Update />} />
+        <Route path="*" element={<Nothing />} />
+
       </Routes>
 
 
