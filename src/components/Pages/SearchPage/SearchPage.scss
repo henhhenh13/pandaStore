@@ -9,20 +9,26 @@ $color-gray: #f1f0f1;
 $color-red: #ea1c00;
 $color-text: #333;
 $color-nav-color: #232c32;
-
-.title-top {
-    h2 {
-        font-size: 4rem;
-        font-weight: 500;
-    }
-    p {
-        font-size: 1.6rem;
-        padding-left: 25px;
-        i {
-            font-style: normal;
-            color: black;
-            font-size: 1.7rem;
+.search-page {
+    min-height: 500px;
+    .title-top {
+        margin-top: 189px;
+        @media (max-width: 767.98px) {
+            margin-top: unset;
+        }
+        h2 {
+            font-size: 4rem;
             font-weight: 500;
+        }
+        p {
+            font-size: 1.6rem;
+            padding-left: 25px;
+            i {
+                font-style: normal;
+                color: black;
+                font-size: 1.7rem;
+                font-weight: 500;
+            }
         }
     }
 }

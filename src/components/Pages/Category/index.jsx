@@ -28,14 +28,18 @@ function Category(props) {
     }, [search, manufacturer]);
 
     return (
-        <div className='search-page'>
+        <div>
             <Header />
 
-            <div className="title-top container">
-                <h2 className='title'>Tìm kiếm</h2>
-                <p className='result'>Kết quả tìm kiếm cho <i>{`"${search}".`}</i></p>
+            <div className='search-page'>
+                <div className="title-top container">
+                    <h2 className='title'>Tìm kiếm</h2>
+                    <p className='result'>Kết quả tìm kiếm cho <i>{`"${search}".`}</i></p>
+                </div>
+                <CategoryItem data={data} />
             </div>
-            <CategoryItem data={data} />
+
+
 
             <Footer />
 

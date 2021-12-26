@@ -13,6 +13,7 @@ import Category from './components/Pages/Category';
 import Cart from './components/Pages/Cart';
 import Checkout from './components/Pages/Checkout';
 import Nothing from './components/Pages/Nothing';
+import Bill from './components/Pages/Bill';
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
         <Route path="/product/:name/:id" element={<ItemPage />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/checkout" element={<Checkout />} />
+        <Route path="/bill" element={<Bill />} />
         <Route path="/admin" element={<Admin />} />
         <Route path="/admin/create" element={<Create />} />
         <Route path="/admin/update/:id" element={<Update />} />

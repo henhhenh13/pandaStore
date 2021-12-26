@@ -1,6 +1,7 @@
 .header {
-    position: sticky;
-    top: 0px;
+    position: fixed;
+    width: 100%;
+    top: 0;
     z-index: 10000000000;
     transition: 0.5s ease-in-out;
 }

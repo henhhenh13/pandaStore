@@ -64,7 +64,7 @@ function ItemPage(props) {
 
     return (
         <div>
-            <Header scrollTop={0} />
+            <Header scrollTop={0} showBanner={false} />
 
             {data &&
                 <div className="items-page container">

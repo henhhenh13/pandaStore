@@ -5,7 +5,6 @@ import {
     FaSearch,
     FaWpforms,
     FaUserAstronaut,
-    FaTags,
     FaShoppingCart,
     FaPhone,
     FaYoutube,
@@ -59,13 +58,10 @@ function Headerxxx({ handleToggleNav }) {
                             </form>
                             <ul>
                                 <li className="d-none d-xl-block">
-                                    <a href="/"><span className='icon'><FaWpforms /></span> <span className='text'>đăng ký</span></a>
+                                    <Link to="/bill"><span className='icon'><FaWpforms /></span> <span className='text'>đã mua</span></Link>
                                 </li>
                                 <li className="d-none d-xl-block">
                                     <Link to="/admin"><span className='icon'><FaUserAstronaut /></span><span className='text'>Quản lý</span></Link>
-                                </li>
-                                <li className="d-none d-xl-block">
-                                    <a href="/"><span className='icon'><FaTags /></span><span className='text'>khuyến mãi</span></a>
                                 </li>
                                 <li className="d-xl-block">
                                     <Link to="/cart">
@@ -105,7 +101,7 @@ function Headerxxx({ handleToggleNav }) {
                 <div className=" container">
                     <div className="row">
                         <div className="col-2 nav-fixed">
-                            <a href="/">danh mục sản phẩm</a>
+                            <Link to="/">danh mục sản phẩm</Link>
                         </div>
                         <div className="col-10">
                             <div className="row container-content">

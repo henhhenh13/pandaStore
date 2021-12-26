@@ -1,26 +1,37 @@
 import { useEffect } from 'react';
 import { useState } from 'react';
-import { Form, Button, Row, Col } from 'react-bootstrap';
+import { Form, Button, Row, Col, Modal } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
 import './Checkout.scss'
 import CheckoutItem from './CheckoutItem';
 
 function Checkout(props) {
     let navigate = useNavigate();
+    const loadUserBill = localStorage.getItem('UserPandaStoreBill');
     const [userCart, setUserCart] = useState(() => {
         const loadUserCart = localStorage.getItem('UserPandaStore');
         return JSON.parse(loadUserCart)
     });
+    const userBill = JSON.parse(loadUserBill) || [];
+    const [show, setShow] = useState(false);
+
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
+
     function handleBuy(e) {
         e.preventDefault();
-        const newUserCart = { ...userCart, product: [], totalPrice: 0 }
+        const utc = new Date().toJSON().slice(0, 10).replace(/-/g, '/');
+        const newUserCart = { ...userCart, product: [], totalPrice: 0 };
+        userBill.push({ ...userCart, date: utc })
+        localStorage.setItem('UserPandaStoreBill', JSON.stringify(userBill));
+
         localStorage.setItem('UserPandaStore', JSON.stringify(newUserCart));
-        setUserCart(newUserCart)
-        navigate('/')
+
+        setUserCart(newUserCart);
+        navigate('/bill');
     }
     useEffect(() => {
-        window.scrollTo(0, 0)
-
+        window.scrollTo(0, 0);
     }, [])
 
     return (
@@ -31,7 +42,7 @@ function Checkout(props) {
                     <h1>Gearvn.com</h1>
                     <h2 className=''>Thông tin giao hàng</h2>
                     <div className="nav mb-3"></div>
-                    <Form>
+                    <Form >
                         <Row className="mb-3">
                             <Form.Group as={Col} controlId="floatingInputGrid">
                                 <Form.Control type="text" placeholder="Họ và tên" />
@@ -57,10 +68,9 @@ function Checkout(props) {
                                 <Form.Control type="text" placeholder="Quận/Huyện" />
                             </Form.Group>
                         </Row>
-                        <Button variant="primary" type="submit" size='lg' onClick={handleBuy}>
+                        <Button variant="primary" size='lg' onClick={handleShow}>
                             Thanh toán đơn hàng
                         </Button>
-
                     </Form>
 
                 </div>
@@ -85,6 +95,22 @@ function Checkout(props) {
 
                 </div>
             </div>
+            <Modal show={show} onHide={handleClose}>
+                <Modal.Header closeButton>
+                    <Modal.Title>Thông báo</Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                    <h2>Xác nhận thanh toán đơn hàng</h2>
+                </Modal.Body>
+                <Modal.Footer>
+                    <Button variant="secondary" size='lg' onClick={handleClose}>
+                        Dóng
+                    </Button>
+                    <Button variant="primary" size='lg' onClick={handleBuy}>
+                        Xác nhận
+                    </Button>
+                </Modal.Footer>
+            </Modal>
 
         </div>
     );

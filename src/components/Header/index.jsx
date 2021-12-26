@@ -4,10 +4,10 @@ import Banner from './Banner';
 import MenuMobile from '../MenuMobile';
 import './Header.scss'
 
-function Header(props) {
+function Header({ scrollTop }) {
     const [toggleNav, setToggleNav] = useState(false)
     const [showBanner, setShowBanner] = useState(false)
-    const numberScroll = props.scrollTop;
+    const numberScroll = scrollTop;
     useEffect(() => {
         const handleScroll = () => {
             setShowBanner(window.scrollY > numberScroll)

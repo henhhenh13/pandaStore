@@ -29,14 +29,16 @@ function SearchPage(props) {
     }, [search]);
 
     return (
-        <div className='search-page'>
+        <div>
             <Header />
 
-            <div className="title-top container">
-                <h2 className='title'>Tìm kiếm</h2>
-                <p className='result'>Kết quả tìm kiếm cho <i>{search ? search : "Tất cả"}</i></p>
+            <div className="search-page">
+                <div className="title-top container">
+                    <h2 className='title'>Tìm kiếm</h2>
+                    <p className='result'>Kết quả tìm kiếm cho <i>{search ? search : "Tất cả"}</i></p>
+                </div>
+                <SearchItem data={data} />
             </div>
-            <SearchItem data={data} />
 
             <Footer />
 
