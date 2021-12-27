@@ -121,24 +121,24 @@ function ItemPage(props) {
                                 </li>
                             </ul>
                             <div className="table">
-                                <h3>Thông số kỹ thuật:</h3>
+                                <h3>Thông tin liên quan:</h3>
                                 <table>
                                     <tbody>
                                         <tr>
-                                            <td>CPU</td>
-                                            <td>AMD Ryzen 5 – 5500U (6 nhân 12 luồng)</td>
+                                            <td>Hãng Sản xuất</td>
+                                            <td>{data.manufacturer}</td>
                                         </tr>
                                         <tr>
-                                            <td>RAM</td>
-                                            <td>8GB DDR4 (2x SO-DIMM socket, up to 32GB SDRAM)</td>
+                                            <td>Loại sản phẩm</td>
+                                            <td>{data.type.description}</td>
                                         </tr>
                                         <tr>
-                                            <td>Ổ cứng</td>
-                                            <td>512GB PCIe® NVMe™ M.2 SSD</td>
+                                            <td>Mã sản phẩm</td>
+                                            <td>{data.name}</td>
                                         </tr>
                                         <tr>
-                                            <td>Card đồ họa</td>
-                                            <td>NVIDIA GeForce GTX 1650 4GB GDDR6</td>
+                                            <td>Mục</td>
+                                            <td>{data.type.name}</td>
                                         </tr>
                                     </tbody>
                                 </table>

@@ -30,6 +30,9 @@ function Category(props) {
                     window.scroll(0, 0)
                 });
         }
+        return () => {
+            setLoading(false)
+        }
     }, [search, manufacturer]);
 
     return (
