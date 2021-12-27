@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import { useState } from 'react';
 import { Button, Modal, Form } from 'react-bootstrap';
 import { useNavigate, useParams } from "react-router-dom";
+import { FiLoader } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
 import { FiDelete } from 'react-icons/fi'
 import './Update.scss';
@@ -16,22 +17,30 @@ function Update(props) {
     const [data, setData] = useState(false);
     const [addImg, setAddImg] = useState(['null']);
     const [category, setCategory] = useState([]);
+    const [loading, setLoading] = useState(false);
 
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
 
     //Call api lấy ra sản phẩm sửa và category
     useEffect(() => {
-        fetch(`https://json-server-panda.herokuapp.com/product/${id}`)
-            .then(res => res.json())
-            .then(data => {
-                setData(data)
-            })
         fetch(`https://json-server-panda.herokuapp.com/category`)
             .then(res => res.json())
             .then(data => {
                 setCategory(data)
             })
+
+        fetch(`https://json-server-panda.herokuapp.com/product/${id}`)
+            .then(res => res.json())
+            .then(data => {
+                setData(data)
+                setLoading(true)
+            })
+
+        return () => {
+            setLoading(false);
+        }
+
     }, [id])
 
     //Hàm call api sản phẩm để chỉnh sửa nhận id từ trang admin 
@@ -49,8 +58,10 @@ function Update(props) {
     //Hàm xử lý sự kiện sửa, PUT api lên sever và đóng modal
     function handleSubmitAdd(e) {
         e.preventDefault();
+        setLoading(false)
         updateData(`https://json-server-panda.herokuapp.com/product/${id}`, data)
             .then(data => {
+                setLoading(true)
                 navigate('/admin');
             });
         handleClose();
@@ -202,6 +213,7 @@ function Update(props) {
                     </Form>
                 </div>
             }
+            <div className={`loading ${!loading ? 'show' : ''}`}><span><FiLoader /></span></div>
         </div>
     );
 }

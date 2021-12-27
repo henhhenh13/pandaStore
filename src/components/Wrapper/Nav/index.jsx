@@ -7,7 +7,9 @@ import {
     FaKeyboard,
     FaHeadphones,
     FaMouse,
-    FaCaretDown
+    FaCaretDown,
+    FaWpforms,
+    FaUserAstronaut
 } from 'react-icons/fa';
 import './Nav.scss';
 
@@ -127,6 +129,18 @@ function Nav(props) {
                             <ul>
                                 <li><Link to="category/headphone/apos">Apos</Link></li>
                             </ul>
+                        </div>
+                    </li>
+                    <li className="menu-left-li d-xl-none d-block">
+                        <div className="menu-left-a" >
+                            <i><FaWpforms /></i>
+                            <Link to="/bill"><span className='text'>đã mua</span></Link>
+                        </div>
+                    </li>
+                    <li className="menu-left-li d-xl-none d-block">
+                        <div className="menu-left-a" >
+                            <i><FaUserAstronaut /></i>
+                            <Link to="/admin"><span className='text'>quản lý</span></Link>
                         </div>
                     </li>
                 </ul>

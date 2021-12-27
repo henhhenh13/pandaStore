@@ -1,9 +1,15 @@
 .cart {
+    .cart-body {
+        margin-top: 200px;
+    }
     @media (max-width: 767.98px) {
         padding-top: 50px;
+        .cart-body {
+            margin-top: unset;
+        }
     }
     .cart-container {
-        overflow: scroll;
+        overflow: auto;
         th,
         td {
             font-size: 1.7rem;

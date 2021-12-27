@@ -1,6 +1,7 @@
 import { useState, useRef } from 'react';
 import { Button, Modal, Form } from 'react-bootstrap';
 import { useNavigate } from "react-router-dom";
+import { FiLoader } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
 import { FiDelete } from 'react-icons/fi'
 import './Create.scss';
@@ -13,6 +14,7 @@ function Create(props) {
     const navigate = useNavigate();
     const [show, setShow] = useState(false);
     const [category, setCategory] = useState([]);
+    const [loading, setLoading] = useState(true);
 
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
@@ -61,8 +63,10 @@ function Create(props) {
     //Khi submit form post dữ liệu đã nhập lên sever
     function handleSubmitAdd(e) {
         e.preventDefault();
+        setLoading(false)
         postData('https://json-server-panda.herokuapp.com/product', inputData)
             .then(data => {
+                setLoading(true)
                 navigate('/admin');
             });
         handleClose();
@@ -218,6 +222,7 @@ function Create(props) {
                     </Modal.Footer>
                 </Modal>
             </Form>
+            <div className={`loading ${!loading ? 'show' : ''}`}><span><FiLoader /></span></div>
         </div>
     );
 }

@@ -2,12 +2,14 @@ import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom'
 import { Pagination } from 'react-bootstrap'
 import { Table, Button, Modal } from 'react-bootstrap';
+import { FiLoader } from 'react-icons/fi';
 import './Admin.scss'
 import ImgModal from './AdminModals/ImgModal';
 
 
 function Admin(props) {
     //Trang hiển thị sản phẩm
+    const [loading, setLoading] = useState(false);
     const [renderTable, setRenderTable] = useState(false);
     const [data, setData] = useState([]);
     const [modalShow, setModalShow] = useState(false);
@@ -37,14 +39,16 @@ function Admin(props) {
             .then(data => {
                 setNumberPage(data.length)
             })
-
-
         fetch(`https://json-server-panda.herokuapp.com/product?_page=${pageSetting._page}&_limit=${pageSetting._limit}`)
             .then(res => res.json())
             .then(data => {
+                setLoading(true)
                 setData(data)
             })
-            .catch(console.log("Connect Fail.."))
+
+        return () => {
+            setLoading(false)
+        }
     }, [renderTable, pageSetting]);
 
     //Hàm đóng modal
@@ -173,6 +177,7 @@ function Admin(props) {
                 <Pagination size="lg" onClick={handleChangePage}>{items}</Pagination>
                 <br />
             </div>
+            <div className={`loading ${!loading ? 'show' : ''}`}><span><FiLoader /></span></div>
         </div >
     );
 }

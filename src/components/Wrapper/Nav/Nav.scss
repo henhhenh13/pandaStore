@@ -57,8 +57,16 @@ $color-nav-color: #232c32;
                         color: inherit;
                     }
                     .on-drop {
+                        font-size: 2rem;
                         margin-left: auto;
                         padding: 5px;
+                        line-height: 0;
+                        transition: 0.3s linear;
+                    }
+                    &.show {
+                        .on-drop {
+                            transform: rotate(180deg);
+                        }
                     }
                     i {
                         padding: 0 5px;

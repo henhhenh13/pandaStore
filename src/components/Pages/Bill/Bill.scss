@@ -13,3 +13,11 @@
         font-weight: 500;
     }
 }
+
+.bill {
+    margin-top: 200px;
+
+    @media (max-width: 789.98px) {
+        margin-top: unset;
+    }
+}

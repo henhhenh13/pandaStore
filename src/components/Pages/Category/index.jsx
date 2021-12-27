@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
+import { FiLoader } from 'react-icons/fi';
 import Header from '../../Header'
 import Footer from '../../Footer'
 import './Category.scss'
@@ -8,6 +9,8 @@ import CategoryItem from './CategoryItem';
 function Category(props) {
     let { search, manufacturer } = useParams();
     const [data, setData] = useState();
+    const [loading, setLoading] = useState(false);
+
 
     useEffect(() => {
         if (manufacturer) {
@@ -15,6 +18,7 @@ function Category(props) {
                 .then(res => res.json())
                 .then(data => {
                     setData(data)
+                    setLoading(true)
                     window.scroll(0, 0)
                 });
         } else {
@@ -22,6 +26,7 @@ function Category(props) {
                 .then(res => res.json())
                 .then(data => {
                     setData(data)
+                    setLoading(true)
                     window.scroll(0, 0)
                 });
         }
@@ -36,10 +41,14 @@ function Category(props) {
                     <h2 className='title'>Tìm kiếm</h2>
                     <p className='result'>Kết quả tìm kiếm cho <i>{`"${search}".`}</i></p>
                 </div>
-                <CategoryItem data={data} />
+                {
+                    data && data.length > 0 ?
+                        <CategoryItem data={data} />
+                        :
+                        <h2 className='search-null text-center'>Danh mục sản phẩm này chưa có sản phẩm</h2>
+                }
             </div>
-
-
+            <div className={`loading ${!loading ? 'show' : ''}`}><span><FiLoader /></span></div>
 
             <Footer />
 

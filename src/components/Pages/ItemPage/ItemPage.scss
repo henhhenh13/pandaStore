@@ -10,140 +10,143 @@ $color-red: #ea1c00;
 $color-text: #333;
 $color-nav-color: #232c32;
 
-.items-page {
-    margin-top: 189px;
-    margin-bottom: 15px;
-    @media (max-width: 767.98px) {
-        margin-top: unset;
-        padding-top: 50px;
-    }
-    .product-item {
-        .img-container {
-            .slick-track {
-                display: flex;
-                align-items: center;
-            }
-            .slick-dots {
-                .slick-active {
-                    img {
-                        border: 1px solid rgb(76, 136, 204);
-                    }
-                }
-            }
-            .slick-dots {
-                position: unset;
-                li {
-                    width: 70px;
-                }
-            }
+.items-page-container {
+    min-height: 600px;
+    .items-page {
+        margin-top: 189px;
+        margin-bottom: 15px;
+        @media (max-width: 767.98px) {
+            margin-top: unset;
+            padding-top: 50px;
         }
-        .content-container {
-            h3 {
-                font-size: 2.1rem;
-                margin-bottom: 25px;
-                display: block;
-                text-transform: capitalize;
-                &.name {
-                    margin-top: 35px;
-                    margin-bottom: 40px;
+        .product-item {
+            .img-container {
+                .slick-track {
+                    display: flex;
+                    align-items: center;
                 }
-            }
-            .info-all {
-                padding-left: 25px;
-                border-bottom: 1px solid #ddd;
-                padding-bottom: 60px;
-                li {
-                    font-size: 2rem;
-                    font-weight: bolder;
-                    line-height: 1.3;
-                    list-style: inside;
-                    i {
-                        font-style: normal;
-                        font-weight: 400;
-                        font-size: 1.9rem;
+                .slick-dots {
+                    .slick-active {
+                        img {
+                            border: 1px solid rgb(76, 136, 204);
+                        }
+                    }
+                }
+                .slick-dots {
+                    position: unset;
+                    li {
+                        width: 70px;
                     }
                 }
             }
-            .prices {
-                div {
-                    p {
-                        display: inline-block;
-                        font-size: 1.6rem;
-                        margin: 10px 0;
-                        &.price {
-                            font-size: 2.1rem;
-                            margin-left: 15px;
-                            font-weight: bold;
-                            color: $color-red;
-                        }
+            .content-container {
+                h3 {
+                    font-size: 2.1rem;
+                    margin-bottom: 25px;
+                    display: block;
+                    text-transform: capitalize;
+                    &.name {
+                        margin-top: 35px;
+                        margin-bottom: 40px;
+                    }
+                }
+                .info-all {
+                    padding-left: 25px;
+                    border-bottom: 1px solid #ddd;
+                    padding-bottom: 60px;
+                    li {
+                        font-size: 2rem;
+                        font-weight: bolder;
+                        line-height: 1.3;
+                        list-style: inside;
                         i {
                             font-style: normal;
-                            text-decoration: underline;
+                            font-weight: 400;
+                            font-size: 1.9rem;
                         }
                     }
                 }
-                .old-price {
-                    .price {
-                        color: $color-grayHight;
-                        font-weight: 500;
-                        text-decoration-line: line-through;
+                .prices {
+                    div {
+                        p {
+                            display: inline-block;
+                            font-size: 1.6rem;
+                            margin: 10px 0;
+                            &.price {
+                                font-size: 2.1rem;
+                                margin-left: 15px;
+                                font-weight: bold;
+                                color: $color-red;
+                            }
+                            i {
+                                font-style: normal;
+                                text-decoration: underline;
+                            }
+                        }
                     }
-                }
-                .buy {
-                    font-size: 2.5rem;
-                    margin-top: 15px;
-                    padding: 10px 30px;
-                    background-color: $color-red;
-                    color: $color-white;
-                    font-weight: bolder;
-                    border-radius: 5px;
+                    .old-price {
+                        .price {
+                            color: $color-grayHight;
+                            font-weight: 500;
+                            text-decoration-line: line-through;
+                        }
+                    }
+                    .buy {
+                        font-size: 2.5rem;
+                        margin-top: 15px;
+                        padding: 10px 30px;
+                        background-color: $color-red;
+                        color: $color-white;
+                        font-weight: bolder;
+                        border-radius: 5px;
+                    }
                 }
             }
         }
-    }
 
-    .table-product {
-        margin-top: 50px;
-        .nav-tabs {
-            padding: 0;
-            border-bottom: 1px solid #ddd;
-            li {
-                font-size: 1.6rem;
-                margin-bottom: -1px;
-                a {
-                    color: #555;
-                    background-color: #fff;
-                    border: 1px solid #ddd;
-                    border-bottom: 1px solid transparent;
-                    padding: 10px 15px;
-                    border-radius: 3px 3px 0 0;
-                }
-            }
-        }
-        .table {
-            padding: 20px 10px 10px 10px;
-            border: 1px solid #ddd;
-            border-top: transparent;
-            margin-top: -10px;
-            h3 {
-                margin-bottom: 25px;
-                font-size: 2.3rem;
-            }
-
-            table {
-                width: 100%;
-                border-collapse: collapse;
-                margin-top: -10px;
-
-                tr {
-                    td:first-child {
-                        background-color: #f7f7f7 !important;
-                    }
-                    td {
+        .table-product {
+            margin-top: 50px;
+            .nav-tabs {
+                padding: 0;
+                border-bottom: 1px solid #ddd;
+                li {
+                    font-size: 1.6rem;
+                    margin-bottom: -1px;
+                    a {
+                        color: #555;
+                        background-color: #fff;
                         border: 1px solid #ddd;
-                        padding: 8px;
-                        vertical-align: top;
-                        font-size: 1.6rem;
+                        border-bottom: 1px solid transparent;
+                        padding: 10px 15px;
+                        border-radius: 3px 3px 0 0;
+                    }
+                }
+            }
+            .table {
+                padding: 20px 10px 10px 10px;
+                border: 1px solid #ddd;
+                border-top: transparent;
+                margin-top: -10px;
+                h3 {
+                    margin-bottom: 25px;
+                    font-size: 2.3rem;
+                }
+
+                table {
+                    width: 100%;
+                    border-collapse: collapse;
+                    margin-top: -10px;
+
+                    tr {
+                        td:first-child {
+                            background-color: #f7f7f7 !important;
+                        }
+                        td {
+                            border: 1px solid #ddd;
+                            padding: 8px;
+                            vertical-align: top;
+                            font-size: 1.6rem;
+                        }
                     }
                 }
             }

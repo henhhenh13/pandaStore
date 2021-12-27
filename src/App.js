@@ -4,6 +4,7 @@ import Wrapper from './components/Wrapper';
 import './components/style/grid.css'
 import './components/style/style.scss'
 import './components/style/responsive.scss'
+import './App.scss';
 import ItemPage from './components/Pages/ItemPage';
 import SearchPage from './components/Pages/SearchPage';
 import Admin from './components/Pages/Admin';

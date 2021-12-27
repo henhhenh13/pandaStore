@@ -71,7 +71,7 @@ function Cart(props) {
             {
                 userCart.product && userCart.product.length > 0
                     ?
-                    <div>
+                    <div className='cart-body'>
                         <h1 className='text-center mt-5 mb-4'>Giỏ Hàng</h1>
                         <div className="cart-container container mb-3">
                             <Table bordered size="lg" variant='white'>

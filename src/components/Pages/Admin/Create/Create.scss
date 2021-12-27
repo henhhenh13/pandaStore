@@ -17,11 +17,13 @@
     }
 }
 .img-box {
+    flex-wrap: wrap;
     .img-control {
         position: relative;
         border: 1px solid #333;
         margin-right: 15px;
         padding: 10px;
+        margin-bottom: 15px;
         .img {
             width: 100px;
             height: 100px;

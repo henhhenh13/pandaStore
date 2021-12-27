@@ -9,6 +9,7 @@ $color-gray: #f1f0f1;
 $color-red: #ea1c00;
 $color-text: #333;
 $color-nav-color: #232c32;
+
 .search-page {
     min-height: 500px;
     .title-top {
@@ -31,4 +32,8 @@ $color-nav-color: #232c32;
             }
         }
     }
+}
+
+.search-null {
+    min-height: 500px;
 }
