@@ -9,7 +9,8 @@ import {
     FaMouse,
     FaCaretDown,
     FaWpforms,
-    FaUserAstronaut
+    FaUserAstronaut,
+    FaShoppingCart
 } from 'react-icons/fa';
 import './Nav.scss';
 
@@ -141,6 +142,12 @@ function Nav(props) {
                         <div className="menu-left-a" >
                             <i><FaUserAstronaut /></i>
                             <Link to="/admin"><span className='text'>quản lý</span></Link>
+                        </div>
+                    </li>
+                    <li className="menu-left-li d-xl-none d-block">
+                        <div className="menu-left-a" >
+                            <i><FaShoppingCart /></i>
+                            <Link to="/cart"><span className='text'>Giỏ hàng</span></Link>
                         </div>
                     </li>
                 </ul>

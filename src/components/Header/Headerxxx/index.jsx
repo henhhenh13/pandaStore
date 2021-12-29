@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom';
 import './Headerxxx.scss'
 import {
     FaSearch,
@@ -40,7 +40,7 @@ function Headerxxx({ handleToggleNav }) {
                     <button onClick={handleToggleNav} className='on-nav-mobile'><AiOutlineMenuUnfold /></button>
                     <Link to="/" className="home">
                         <img
-                            src="https://theme.hstatic.net/1000026716/1000440777/14/logo.svg?v=22943"
+                            src={process.env.PUBLIC_URL + '/images/logo2.png'}
                             alt=""
                             className="logo"
                         />
@@ -57,7 +57,7 @@ function Headerxxx({ handleToggleNav }) {
                                 <button><FaSearch /></button>
                             </form>
                             <ul>
-                                <li className="d-none d-xl-block">
+                                <li className=" d-xl-block">
                                     <Link to="/bill"><span className='icon'><FaWpforms /></span> <span className='text'>đã mua</span></Link>
                                 </li>
                                 <li className="d-none d-xl-block">
@@ -77,7 +77,7 @@ function Headerxxx({ handleToggleNav }) {
                         <div className="bottom d-none d-xl-block">
                             <ul>
                                 <li>
-                                    <a href="/">mời bạn trải nghiệm giao diện mới</a>
+                                    <a href="/">chào các bạn đến với pandaStore</a>
                                 </li>
                                 <li className="d-none d-xl-block">
                                     <a href="/"><span><FaPhone /></span> Tổng đài</a>

@@ -35,9 +35,9 @@ $color-nav-color: #232c32;
                         padding: 2px 0;
                         width: 100%;
                         text-align: left;
-
+                        white-space: nowrap;
                         &:hover {
-                            color: $color-red;
+                            color: #0a5cd6;
                         }
                     }
                 }
@@ -80,7 +80,7 @@ $color-nav-color: #232c32;
                         }
                     }
                     &:hover {
-                        background-color: $color-red;
+                        background-color: #0a5cd6;
                         color: $color-white;
                     }
                 }

@@ -9,6 +9,7 @@ function MenuMobile({ toggleNav }) {
             <div className="menu-mobile">
                 <Nav />
             </div>
+            <div className="hidden"></div>
 
 
         </div>

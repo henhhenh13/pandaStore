@@ -14,7 +14,7 @@ function ItemCarouselProduct({ data }) {
                         <div className="price">
                             <p className="old-price">{Number(data.oldPrice).toLocaleString('vi-VN')}<i>đ</i></p>
                             <p className="new-price">{Number(data.oldPrice).toLocaleString('vi-VN')}<i>đ</i></p>
-                            <div className="sale">-{data.fix}%</div>
+                            {/* <div className="sale">-{data.fix}%</div> */}
                         </div>
                     </div>
                 </div>

@@ -12,8 +12,19 @@ function Header({ scrollTop }) {
         const handleScroll = () => {
             setShowBanner(window.scrollY > numberScroll)
         }
+
+        const handleOffNavMb = (e) => {
+            const offNav = e.target.closest('.menu-mobile');
+            const btnNav = e.target.closest('.on-nav-mobile');
+            if (!btnNav && !offNav) {
+                setToggleNav(false)
+            }
+        }
+
+        window.addEventListener('click', handleOffNavMb)
         window.addEventListener('scroll', handleScroll)
         return () => {
+            window.removeEventListener('click', handleOffNavMb)
             window.removeEventListener('scroll', handleScroll)
         }
     }, [numberScroll]);

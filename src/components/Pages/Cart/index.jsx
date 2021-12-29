@@ -108,7 +108,7 @@ function Cart(props) {
                                 <div className="row">
                                     <div className="col-md-8"></div>
                                     <div className="col-md-4 text-center">
-                                        <Button variant='danger' onClick={handleBuy}>Thanh Toán</Button>
+                                        <Button variant='primary' onClick={handleBuy}>Thanh Toán</Button>
                                     </div>
                                 </div>
                             </div>

@@ -1,28 +1,29 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Sale(props) {
     return (
         <div className="sale-banner container">
             <div className="row">
-                <div className="col-xl-8 col-md-6 d-sm-none">
-                    <a href="/">
-                        <img src={process.env.PUBLIC_URL + '/images/product/xxxbanner1.jpg'} alt="" />
-                    </a>
+                <div className="col-xl-3 d-none d-xl-block">
+                    <Link to='/category/laptopGaming'>
+                        <img src={process.env.PUBLIC_URL + '/images/banner/slideshow_5.jpg'} alt="" />
+                    </Link>
                 </div>
-                <div className="col-xl-8 col-md-6 d-sm-none">
-                    <a href="/">
-                        <img src={process.env.PUBLIC_URL + '/images/product/xxxbanner2.jpg'} alt="" />
-                    </a>
+                <div className="col-xl-3 d-none d-xl-block">
+                    <Link to="/category/laptopOffice">
+                        <img src={process.env.PUBLIC_URL + '/images/banner/slideshow_6.jpg'} alt="" />
+                    </Link>
                 </div>
-                <div className="col-xl-8 col-md-6 d-sm-none">
-                    <a href="/">
-                        <img src={process.env.PUBLIC_URL + '/images/product/xxxbanner3.jpg'} alt="" />
-                    </a>
+                <div className="col-xl-3 d-none d-xl-block">
+                    <Link to="/category/laptopGaming">
+                        <img src={process.env.PUBLIC_URL + '/images/banner/slideshow_5.jpg'} alt="" />
+                    </Link>
                 </div>
-                <div className="col-xl-8 col-md-6 d-sm-none">
-                    <a href="/">
-                        <img src={process.env.PUBLIC_URL + '/images/product/xxxbanner4.jpg'} alt="" />
-                    </a>
+                <div className="col-xl-3 d-none d-xl-block">
+                    <Link to="/category/screen">
+                        <img src={process.env.PUBLIC_URL + '/images/banner/slideshow_7.jpg'} alt="" />
+                    </Link>
                 </div>
             </div>
 

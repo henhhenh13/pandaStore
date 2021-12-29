@@ -28,5 +28,9 @@ $color-nav-color: #232c32;
 
     .sale-banner {
         margin-top: 10px;
+        margin-bottom: 10px;
+        img {
+            border-radius: 5px;
+        }
     }
 }

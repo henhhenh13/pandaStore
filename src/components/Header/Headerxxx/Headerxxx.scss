@@ -27,11 +27,11 @@ $color-nav-color: #232c32;
 
     .home {
         display: block;
-        padding-right: 25px;
+        padding: 0 25px;
 
         .logo {
-            height: 100%;
-            width: 170px;
+            height: 80px;
+            width: 100px;
         }
     }
 
@@ -53,7 +53,7 @@ $color-nav-color: #232c32;
                 }
                 button {
                     border-radius: 0 15px 15px 0;
-                    background-color: orangered;
+                    background-color: #0a5cd6;
                     padding: 0 15px;
                     color: white;
                     font-size: 1.5rem;
@@ -83,7 +83,7 @@ $color-nav-color: #232c32;
                                 top: 5px;
                                 left: 0;
                                 font-size: 1.1rem;
-                                background-color: $color-red;
+                                background-color: #0a5cd6;
                                 border-radius: 50%;
                                 color: $color-white;
                                 font-weight: 300;
@@ -117,7 +117,7 @@ $color-nav-color: #232c32;
                         font-size: 1.4rem;
                         text-transform: uppercase;
                         font-weight: bold;
-                        color: $color-red;
+                        color: #0a5cd6;
                         span {
                             padding: 0 5px;
                             font-size: 1.8rem;
@@ -125,7 +125,7 @@ $color-nav-color: #232c32;
                     }
                 }
                 li + li {
-                    border-left: 2px solid $color-red;
+                    border-left: 2px solid #0a5cd6;
                 }
             }
         }
@@ -156,9 +156,9 @@ $color-nav-color: #232c32;
             color: $color-black !important;
         }
         a:hover {
-            background-color: $color-red;
+            background-color: #0a5cd6;
             color: $color-white;
-            border-color: $color-red;
+            border-color: #0a5cd6;
         }
     }
 

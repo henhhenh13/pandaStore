@@ -6,7 +6,7 @@ const bannerStyle = {
 }
 
 function Banner(props) {
-    const bannerNumber = [1, 2, 3];
+    const bannerNumber = [1, 2];
     const number = Math.floor(Math.random() * (bannerNumber.length))
 
     return (
