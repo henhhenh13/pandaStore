@@ -59,9 +59,9 @@ function Cart(props) {
         e.preventDefault();
         navigate('/checkout')
     }
+
     useEffect(() => {
         window.scrollTo(0, 0)
-
     }, [])
 
 

@@ -13,6 +13,7 @@ function Category(props) {
 
 
     useEffect(() => {
+        //Nếu chọn thêm mục phụ
         if (manufacturer) {
             fetch(`https://json-server-panda.herokuapp.com/product?type.name=${search}&manufacturer=${manufacturer}`)
                 .then(res => res.json())
@@ -22,6 +23,7 @@ function Category(props) {
                     window.scroll(0, 0)
                 });
         } else {
+            //Không chọn mục phụ
             fetch(`https://json-server-panda.herokuapp.com/product?type.name=${search}`)
                 .then(res => res.json())
                 .then(data => {

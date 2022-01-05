@@ -35,7 +35,7 @@ $color-nav-color: #232c32;
                         padding: 2px 0;
                         width: 100%;
                         text-align: left;
-                        white-space: nowrap;
+                        white-space: nowrap !important;
                         &:hover {
                             color: #0a5cd6;
                         }

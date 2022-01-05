@@ -7,8 +7,8 @@ function Footer(props) {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-5 col-md-12">
-                        <h3>công ty tnhh thương mại gearvn</h3>
-                        <h3>email: cskh@gearvn.com</h3>
+                        <h3>công ty tnhh thương mại panda store</h3>
+                        <h3>email: henhhenh13@gmail.com</h3>
 
                         <h3>hệ thống tông đài miễn phí: <small>(làm việc từ 09h00 - 19h00)</small></h3>
 

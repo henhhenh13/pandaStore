@@ -36,7 +36,6 @@ function Header({ scrollTop }) {
             <Banner />
             <Headerxxx handleToggleNav={handleToggleNav} />
             <MenuMobile toggleNav={toggleNav} />
-
         </div>
     );
 }
