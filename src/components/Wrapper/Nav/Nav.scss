@@ -55,6 +55,7 @@ $color-nav-color: #232c32;
                     color: $color-grayHight;
                     a {
                         color: inherit;
+                        white-space: nowrap;
                     }
                     .on-drop {
                         font-size: 2rem;
