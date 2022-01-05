@@ -75,8 +75,6 @@ function Nav(props) {
                         <div className="dropdown-menu-nav">
                             <ul>
                                 <li><Link to="category/mainboard">Bo mạch chủ</Link></li>
-                                <li><Link to="category/mainboard">Bo mạch chủ</Link></li>
-                                <li><Link to="category/mainboard">Bo mạch chủ</Link></li>
                             </ul>
                         </div>
                     </li>

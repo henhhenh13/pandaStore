@@ -14,7 +14,7 @@ function ImgModal(props) {
             >
                 <Modal.Header closeButton>
                     <Modal.Title id="contained-modal-title-vcenter">
-                        Modal heading
+                        Tất cả ảnh
                     </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
